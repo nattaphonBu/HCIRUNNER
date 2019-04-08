@@ -6407,8 +6407,20 @@ button.bg-dark:focus {
 
 .mb-0,
 .my-0 {
+  
   margin-bottom: 0 !important; }
-
+.mb-00{
+  margin-left: 10mm;
+  
+}
+.mb-000{
+ 
+  margin-left: 5mm;
+}
+.mb-0000{
+ 
+  margin-left: 25mm;
+}
 .ml-0,
 .mx-0 {
   margin-left: 0 !important; }
@@ -8846,7 +8858,7 @@ textarea.form-control {
     box-shadow: 0 0 0 0 rgba(46, 158, 91, 0); } }
 
 .heading-section .subheading {
-  font-size: 16px;
+  font-size: 52px;
   display: block;
   margin-bottom: 5px;
   text-transform: uppercase;
@@ -9191,18 +9203,38 @@ textarea.form-control {
     width: 100%;
     padding-left: 2em; }
   .blog-entry span.day {
+    text-shadow: black 0.1em 0.1em 0.2em;
     font-size: 50px;
     font-weight: 400;
-    color: #000000;
+    color: #ffffff;
     line-height: 1;
-    text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1); }
-  .blog-entry span.yr, .blog-entry span.mos {
+     }
+    .blog-entry span.status {
+      margin-left:61.5mm;
+      font-size: 20px;
+      font-weight: 400;
+      color: rgb(42, 201, 95);
+      stroke-width: 2cm;
+      line-height: 1.4;
+      text-shadow: rgb(42, 201, 95) 0.1em 0.1em 0.2em;
+      border: 2px solid ;
+      border-radius: 12px;}
+      .blog-entry span.em {
+        margin-left:20mm;
+        font-size: 20px;
+        font-weight: 400;
+        color: #00ff00;
+        stroke: #000;
+        stroke-width: 2cm;
+        line-height: 1;
+        text-shadow: 0px 3px 5px rgb(42, 201, 95); }
+  .blog-entry span.yr, .blog-entry span.mos { 
+    text-shadow: black 0.1em 0.1em 0.2em;   
     display: block;
     font-size: 16px;
     line-height: 1.4;
     font-weight: 500;
-    color: black;
-    text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1); }
+    color: rgb(255, 255, 255);     }
 
 .block-23 ul {
   padding: 0; }
